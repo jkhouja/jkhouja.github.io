@@ -3,7 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jkhouja.net/contact/</loc>
+    <loc>https://jkhouja.net/about/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jkhouja.net/about/about/</loc>
   </url>
   
   <url>
@@ -11,11 +15,7 @@
   </url>
   
   <url>
-    <loc>https://jkhouja.net/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jkhouja.net/publications/</loc>
+    <loc>https://jkhouja.net/about/publications/</loc>
   </url>
   
 </urlset>
