@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>index on Jude Khouja</title>
-    <link>https://jkhouja.net/about/</link>
+    <link>https://jkhouja.net/</link>
     <description>Recent content in index on Jude Khouja</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://jkhouja.net/about/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://jkhouja.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contact</title>
-      <link>https://jkhouja.net/about/contact/</link>
+      <link>https://jkhouja.net/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jkhouja.net/about/contact/</guid>
+      <guid>https://jkhouja.net/contact/</guid>
       <description>Email: [mkhooja at gmail dot com]
 LinkedIn: [https://www.linkedin.com/in/khouja/]
 Google: [Google Scholar Page]</description>
@@ -18,20 +18,20 @@ Google: [Google Scholar Page]</description>
     
     <item>
       <title>index</title>
-      <link>https://jkhouja.net/about/about/</link>
+      <link>https://jkhouja.net/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jkhouja.net/about/about/</guid>
+      <guid>https://jkhouja.net/about/</guid>
       <description>About Me  I am a computer scientist with research interest in machine learning, computational linguistics and computational social sciences. I worked on problems including language modeling and understanting, topic modeling and supervised/ unsupervised learning in the public and private sectors.
 I completed my masters in Information Mangement at University of Maryland, College Park where I worked with Jordan Boyd-Graber. I have a bachelor in engineering in Computer Science from Damascus University.</description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>https://jkhouja.net/about/publications/</link>
+      <link>https://jkhouja.net/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jkhouja.net/about/publications/</guid>
+      <guid>https://jkhouja.net/publications/</guid>
       <description>Publications  Jude Khouja. &amp;ldquo;Stance Prediction and Claim Verification: An Arabic Perspective.&amp;rdquo; Proceedings of the Third Workshop on Fact Extraction and VERification (FEVER) workshop at ACL 2020, (2020). [Paper, Data] Mohamad Alkhouja. &amp;ldquo;Social media for political change: the activists, governments, and firms triangle of powers during the Arab movement.&amp;rdquo; Handbook of Research on Political Activism in the Information Age.&amp;quot; In: Solo, A.G.M. (ed.) Handbook of Research on Political Activism in the Information Age.</description>
     </item>
     
