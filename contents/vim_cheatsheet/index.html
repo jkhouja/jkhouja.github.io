@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>VIM cheatsheet</title>
+    <meta name="description" content="Personal website of Jude Khouja">
+    <meta name="author" content='Jude Khouja'>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="/sass/researcher.min.css">
+
+    
+        <link rel="icon" type="image/ico" href="https://jkhouja.net/jude_khouja.jpg">
+    
+
+    
+        
+    
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "\\[", right: "\\]", display: true},
+                {left: "$", right: "$", display: false},
+                {left: "\\(", right: "\\)", display: false}
+            ]
+        });
+    });
+</script>
+
+    <body><div class="container mt-5">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
+        <a class="navbar-brand mx-0 mr-sm-auto" href="https://jkhouja.net/">Jude Khouja</a>
+        <div class="navbar-nav flex-row flex-wrap justify-content-center">
+            
+                
+                
+                    <a class="nav-item nav-link" href="/">
+                        About
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">|</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/publications">
+                        Publications
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">|</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/j_khouja.pdf">
+                        Resume
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">|</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/content">
+                        Content
+                    </a>
+                    
+                
+            
+        </div>
+    </nav>
+</div>
+<hr>
+<div id="content">
+
+<div class="container">
+    <center><h1>VIM cheatsheet</h1></center>
+    <hr>
+    <h2 id="terminology">Terminology</h2>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">&#39;\&#39; is the default &lt;leader&gt; in vim.  
+</code></pre></div><h2 id="basics">Basics</h2>
+<h4 id="saving-and-exiting">Saving and Exiting</h4>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">:w   Save
+:wq  Save and quit
+:q   Quit
+:q!  Quit without Saving
+</code></pre></div><h4 id="managing-buffers">Managing Buffers</h4>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">:e filename                Edit a file in a new buffer
+:ls    List opened buffers
+:b [chars]+ tab  switch to buffer
+:bnext (or :bn)            go to next buffer
+:bprev (of :bp)            go to previous buffer
+:bd                        delete a buffer (close a file)
+</code></pre></div><h4 id="splitting-windows">Splitting windows</h4>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">:sp filename            Open a file in a new horizontally split window
+:vs filename            Open a file in a new vertically split window
+ctrl+ws                 Split windows horizontally
+ctrl+wv                 Split windows vertically
+ctrl+ww                 switch between windows
+ctrl+wq                 Quit a window
+</code></pre></div><h4 id="modes">Modes</h4>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">Esc        Normal Mode
+i          Insert Mode 
+I          Insert Mode from in Visual Mode
+v          Visual Mode
+Shft + v   Visual Line Mode
+Ctrl + v   Visual Block Mode | 
+R          Replace Mode
+</code></pre></div><h4 id="basic-commands">Basic commands</h4>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">ctrl + L                  Refresh screen
+u      Undo
+Ctrl-r Redo
+/      Search (See search section)
+.      Repeat previous command
+q:     Open Commands history window
+q?     Open commands history window and search
+</code></pre></div><h2 id="navigation">Navigation</h2>
+<h3 id="insert-mode">Insert Mode</h3>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">Shift + arrow keys   Move one word in direction of arrow
+</code></pre></div><h3 id="command-mode">Command Mode</h3>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">h   move one character left
+l   move one character right
+j   move one row down
+k   move one row up
+
+w   move to beginning of next word
+b   move to beginning of previous word
+e   move to end of word
+
+W   move to beginning of next word after a whitespace
+B   move to beginning of previous word before a whitespace
+E   move to end of word before a whitespace
+
+0   move to beginning of line
+$   move to end of line
+
+gg  move to first line
+G   move to last line
+nG  move to n&#39;th line of file (where n is a number)
+
+Ctrl-B  page up
+Ctrl-F  page down
+Ctrl-D  move half-page down
+Ctrl-U  move half-page up
+
+Ctrl-o  jump to last cursor position
+Ctrl-i  jump to next cursor position
+
+*   next word under cursor
+#   previous word under cursor
+%   jump to matching bracket { } [ ] ( )
+</code></pre></div><h2 id="editing">Editing</h2>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">Normal Mode
+
+r[char]         Replace char under cursor with [char]
+y + [direction] Copy + direction
+d + [direction] Cut + direction
+dd              Cut whole line
+p               Paste after cursor
+P               Paste before cursor
+
+N + [command]   Repeat command N times
+30i- Esc        Insert 30 dashes in a line (as a separator)
+
+Editing in Visual Mode
+
+1.Select text
+2.Apply command [key] [Use I to insert chars before cursor and a after the cursor]
+3.Esc #sometimes needed
+
+y   yank (copy) marked text
+d   delete marked text
+~   switch case
+</code></pre></div><h3 id="cut-and-paste">Cut and Paste</h3>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">yy - yank (copy) a line
+2yy - yank 2 lines
+yw - yank word
+y$ - yank to end of line
+p - put (paste) the clipboard after cursor
+P - put (paste) before cursor
+dd - delete (cut) a line
+dw - delete (cut) the current word
+x - delete (cut) current character
+</code></pre></div><h3 id="paste-mode">Paste Mode</h3>
+<p>This mode is to paste from other applications without experiencing unexpected behaviors:</p>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">    :set paste
+    :set nopaste
+</code></pre></div><h3 id="insert-mode---insertingappending-text">Insert Mode - Inserting/Appending text</h3>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">i - start insert mode at cursor
+I - insert at the beginning of the line
+a - append after the cursor
+A - append at the end of the line
+o - open (append) blank line below current line (no need to press return)
+O - open blank line above current line
+</code></pre></div><h3 id="rename-multiple_matches">Rename multiple_matches:</h3>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">after selecting text and hitting enter:
+cgn
+write replacement in visual mode then [esc]
+.  #to reapply change for next match
+n  #to skip next match
+</code></pre></div><h2 id="search--replace">Search / replace</h2>
+<h3 id="searching-and-replacing">Searching and Replacing</h3>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">/pattern                  search for pattern
+?pattern                  search backward for pattern
+n                         repeat search in same direction
+N                         repeat search in opposite direction
+:%s/[text1]/[text2]/gci   
+                          % global search and not by line
+                          g (global and not by column/block)
+                          c (ask for confirmation)
+                          I or i (case sensitive|insesitive)
+</code></pre></div><h3 id="regex">Regex:</h3>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">^ starts with
+$ ends with
+., *, \, [, ], ^, $  metacharacters.
+\                    escape character
++, ?, \|, {, }, (,)  must be escaped to use their special function.
+\t    tab
+\d    digit
+\.    . (period)
+\s    whitespace
+\n    new line when searching and null byte when replacing
+\r    new line when replacing
+\{#}  for repeating # times
+\@=   Positive lookahead
+\@!   Negative lookahead
+\@&lt;=  Positive lookbehind
+\@&lt;!  Negative lookbehind
+</code></pre></div><h2 id="useful-things">Useful things</h2>
+<h3 id="formatting">Formatting</h3>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">:%!column -t -s $&#39;\t&#39;     Format tsv / csv file nicely using tab as a separator. -s is for separator and $&#39;\t&#39; is for tab.
+
+:%!python -m json.tool    Format JSON by passing the buffer into the command
+</code></pre></div><h3 id="view-subset-of-buffer">View subset of buffer</h3>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">:g/pattern                Only displays part of the buffer that matches the pattern
+:g/pattern/command        Applies command to matching part of the patter
+:g!/pattern               Parts that do NOT match pattern.  Same as :v/pattern
+</code></pre></div><h3 id="copying-to-clipboard-of-mac-osx">Copying to clipboard of Mac OSX</h3>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">:w !pbcopy     Copy Only selection to clipboard
+:%w !pbcopy    Whole file 
+:r !pbpaste    paste from the clipboard 
+</code></pre></div><h3 id="python-syntax-checker">Python syntax checker</h3>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">Jedi plugin is useful for code navigation
+Add to follwoing to the vimrc:
+
+let g:jedi#goto_definitions_command = &#34;&lt;leader&gt;gg&#34;
+:SyntasticCheck &#34;to run syntastic
+</code></pre></div>
+</div>
+
+        </div><div id="footer" class="mb-5">
+    
+</div>
+</body>
+</html>

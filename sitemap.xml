@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jkhouja.net/contact/</loc>
+    <loc>https://jkhouja.net/contents/</loc>
   </url>
   
   <url>
@@ -16,6 +16,14 @@
   
   <url>
     <loc>https://jkhouja.net/publications/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jkhouja.net/content/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jkhouja.net/contents/vim_cheatsheet/</loc>
   </url>
   
 </urlset>

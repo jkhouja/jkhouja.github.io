@@ -6,23 +6,12 @@
     <description>Recent content in index on Jude Khouja</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://jkhouja.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Contact</title>
-      <link>https://jkhouja.net/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jkhouja.net/contact/</guid>
-      <description>Email: [mkhooja at gmail dot com]
-LinkedIn: [https://www.linkedin.com/in/khouja/]
-Google: [Google Scholar Page]</description>
-    </item>
-    
-    <item>
       <title>index</title>
       <link>https://jkhouja.net/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jkhouja.net/about/</guid>
-      <description>About Me  I am a computer scientist with research interest in machine learning, computational linguistics and computational social sciences. I worked on problems including language modeling and understanting, topic modeling and supervised/ unsupervised learning in the public and private sectors.
+      <description>I am a computer scientist with research interest in machine learning, computational linguistics and computational social sciences. I worked on problems including language modeling and understanting, topic modeling and supervised/ unsupervised learning in the public and private sectors.
 I completed my masters in Information Mangement at University of Maryland, College Park where I worked with Jordan Boyd-Graber. I have a bachelor in engineering in Computer Science from Damascus University.</description>
     </item>
     
@@ -32,8 +21,27 @@ I completed my masters in Information Mangement at University of Maryland, Colle
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jkhouja.net/publications/</guid>
-      <description>Publications   Jude Khouja. &amp;ldquo;Stance Prediction and Claim Verification: An Arabic Perspective.&amp;rdquo; Proceedings of the Third Workshop on Fact Extraction and VERification (FEVER) workshop at ACL 2020, (2020). [Paper, Data]
+      <description>Jude Khouja. &amp;ldquo;Stance Prediction and Claim Verification: An Arabic Perspective.&amp;rdquo; Proceedings of the Third Workshop on Fact Extraction and VERification (FEVER) workshop at ACL 2020, (2020). [Paper, Data]
   Mohamad Alkhouja. &amp;ldquo;Social media for political change: the activists, governments, and firms triangle of powers during the Arab movement.&amp;rdquo; Handbook of Research on Political Activism in the Information Age.&amp;quot; In: Solo, A.G.M. (ed.) Handbook of Research on Political Activism in the Information Age.</description>
+    </item>
+    
+    <item>
+      <title>Random Content</title>
+      <link>https://jkhouja.net/content/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jkhouja.net/content/</guid>
+      <description>These are some of the useful things I have tracked through the years:
+VIM Commands I use frequently</description>
+    </item>
+    
+    <item>
+      <title>VIM cheatsheet</title>
+      <link>https://jkhouja.net/contents/vim_cheatsheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jkhouja.net/contents/vim_cheatsheet/</guid>
+      <description>Terminology &amp;#39;\&amp;#39; is the default &amp;lt;leader&amp;gt; in vim. Basics Saving and Exiting :w Save :wq Save and quit :q Quit :q! Quit without Saving Managing Buffers :e filename Edit a file in a new buffer :ls List opened buffers :b [chars]+ tab switch to buffer :bnext (or :bn) go to next buffer :bprev (of :bp) go to previous buffer :bd delete a buffer (close a file) Splitting windows :sp filename Open a file in a new horizontally split window :vs filename Open a file in a new vertically split window ctrl+ws Split windows horizontally ctrl+wv Split windows vertically ctrl+ww switch between windows ctrl+wq Quit a window Modes Esc Normal Mode i Insert Mode I Insert Mode from in Visual Mode v Visual Mode Shft + v Visual Line Mode Ctrl + v Visual Block Mode | R Replace Mode Basic commands ctrl + L Refresh screen u Undo Ctrl-r Redo / Search (See search section) .</description>
     </item>
     
   </channel>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contents on Jude Khouja</title>
+    <link>https://jkhouja.net/contents/</link>
+    <description>Recent content in Contents on Jude Khouja</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://jkhouja.net/contents/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VIM cheatsheet</title>
+      <link>https://jkhouja.net/contents/vim_cheatsheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jkhouja.net/contents/vim_cheatsheet/</guid>
+      <description>Terminology &amp;#39;\&amp;#39; is the default &amp;lt;leader&amp;gt; in vim. Basics Saving and Exiting :w Save :wq Save and quit :q Quit :q! Quit without Saving Managing Buffers :e filename Edit a file in a new buffer :ls List opened buffers :b [chars]+ tab switch to buffer :bnext (or :bn) go to next buffer :bprev (of :bp) go to previous buffer :bd delete a buffer (close a file) Splitting windows :sp filename Open a file in a new horizontally split window :vs filename Open a file in a new vertically split window ctrl+ws Split windows horizontally ctrl+wv Split windows vertically ctrl+ww switch between windows ctrl+wq Quit a window Modes Esc Normal Mode i Insert Mode I Insert Mode from in Visual Mode v Visual Mode Shft + v Visual Line Mode Ctrl + v Visual Block Mode | R Replace Mode Basic commands ctrl + L Refresh screen u Undo Ctrl-r Redo / Search (See search section) .</description>
+    </item>
+    
+  </channel>
+</rss>
