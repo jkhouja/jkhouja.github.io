@@ -82,8 +82,7 @@
 <div class="container">
     <center><h1>VIM cheatsheet</h1></center>
     <hr>
-    <h2 id="terminology">Terminology</h2>
-<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">&#39;\&#39; is the default &lt;leader&gt; in vim.  
+    <div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">&#39;\&#39; is the default &lt;leader&gt; in vim.  
 </code></pre></div><h2 id="basics">Basics</h2>
 <h4 id="saving-and-exiting">Saving and Exiting</h4>
 <div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">:w   Save
@@ -198,12 +197,6 @@ a - append after the cursor
 A - append at the end of the line
 o - open (append) blank line below current line (no need to press return)
 O - open blank line above current line
-</code></pre></div><h3 id="rename-multiple_matches">Rename multiple_matches:</h3>
-<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">after selecting text and hitting enter:
-cgn
-write replacement in visual mode then [esc]
-.  #to reapply change for next match
-n  #to skip next match
 </code></pre></div><h2 id="search--replace">Search / replace</h2>
 <h3 id="searching-and-replacing">Searching and Replacing</h3>
 <div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">/pattern                  search for pattern
@@ -245,6 +238,12 @@ $ ends with
 <div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">:w !pbcopy     Copy Only selection to clipboard
 :%w !pbcopy    Whole file 
 :r !pbpaste    paste from the clipboard 
+</code></pre></div><h3 id="rename-multiple_matches">Rename multiple_matches</h3>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">after selecting text and hitting enter:
+cgn
+write replacement in visual mode then [esc]
+.  #to reapply change for next match
+n  #to skip next match
 </code></pre></div><h3 id="python-syntax-checker">Python syntax checker</h3>
 <div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">Jedi plugin is useful for code navigation
 Add to follwoing to the vimrc:
