@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://jkhouja.net/contents/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jkhouja.net/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jkhouja.net/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jkhouja.net/publications/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jkhouja.net/content/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jkhouja.net/contents/vim_cheatsheet/</loc>
+  </url>
+  
+</urlset>

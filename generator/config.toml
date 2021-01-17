@@ -1,0 +1,52 @@
+title = "Jude Khouja"
+baseURL = "https://jkhouja.net/"
+theme = "researcher"
+disableKinds = ["taxonomy", "term"]
+math = true
+enableEmoji = true
+
+[params]
+  author = "Jude Khouja"
+  description = "Personal website of Jude Khouja"
+  favicon = "jude_khouja.jpg" 
+
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Publications"
+    url = "/publications"
+    weight = 2
+  [[menu.main]]
+    name = "Resume"
+    url = "/J_Khouja.pdf"
+    weight = 3
+  [[menu.main]]
+    name = "Content"
+    url = "/content"
+    weight = 4
+
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "friendly"
+    tabWidth = 4
+  [markup.tableOfContents]
+    endLevel = 2
+    ordered = true
+    startLevel = 2
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # allow raw HTML in markdown files
