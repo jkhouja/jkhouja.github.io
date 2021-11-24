@@ -5,7 +5,7 @@ title: "index"
 
 {{< figure class="avatar" src="jude_khouja.jpg" >}}
 
-I am a computer science practitioner working mostly on problems in natural language processing (NLP), machine learning (ML) and computational social sciences (CSS). I completed my masters in Information Management at University of Maryland, College Park where I worked with [Jordan Boyd-Graber](http://users.umiacs.umd.edu/~jbg/). I have a bachelor in engineering in Computer Science from Damascus University. More in my [resume]("/J_Khouja.pdf").
+I am a computer science practitioner working mostly on problems in natural language processing (NLP), machine learning (ML) and computational social sciences (CSS). I completed my masters in Information Management at University of Maryland, College Park where I worked with [Jordan Boyd-Graber](http://users.umiacs.umd.edu/~jbg/). I have a bachelor in engineering in Computer Science from Damascus University. More in my [resume](j_khouja.pdf).
 
 
 ## Research
