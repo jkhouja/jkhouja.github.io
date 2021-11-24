@@ -11,8 +11,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jkhouja.net/about/</guid>
-      <description>I am a computer scientist with research interest in machine learning, computational linguistics and computational social sciences. I worked on problems including language modeling and understanting, topic modeling and supervised/ unsupervised learning in the public and private sectors.
-I completed my masters in Information Mangement at University of Maryland, College Park where I worked with Jordan Boyd-Graber. I have a bachelor in engineering in Computer Science from Damascus University.</description>
+      <description>I am a computer science practitioner working mostly on problems in natural language processing (NLP), machine learning (ML) and computational social sciences (CSS). I completed my masters in Information Management at University of Maryland, College Park where I worked with Jordan Boyd-Graber. I have a bachelor in engineering in Computer Science from Damascus University. More in my resume.
+Research I worked mostly on problems in NLP; specifically language modeling, topic modeling and supervised/ unsupervised learning.</description>
     </item>
     
     <item>
@@ -41,7 +41,7 @@ VIM Commands I use frequently</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jkhouja.net/contents/vim_cheatsheet/</guid>
-      <description>Terminology &amp;#39;\&amp;#39; is the default &amp;lt;leader&amp;gt; in vim. Basics Saving and Exiting :w Save :wq Save and quit :q Quit :q! Quit without Saving Managing Buffers :e filename Edit a file in a new buffer :ls List opened buffers :b [chars]+ tab switch to buffer :bnext (or :bn) go to next buffer :bprev (of :bp) go to previous buffer :bd delete a buffer (close a file) Splitting windows :sp filename Open a file in a new horizontally split window :vs filename Open a file in a new vertically split window ctrl+ws Split windows horizontally ctrl+wv Split windows vertically ctrl+ww switch between windows ctrl+wq Quit a window Modes Esc Normal Mode i Insert Mode I Insert Mode from in Visual Mode v Visual Mode Shft + v Visual Line Mode Ctrl + v Visual Block Mode | R Replace Mode Basic commands ctrl + L Refresh screen u Undo Ctrl-r Redo / Search (See search section) .</description>
+      <description>&amp;#39;\&amp;#39; is the default &amp;lt;leader&amp;gt; in vim. Basics Saving and Exiting :w Save :wq Save and quit :q Quit :q! Quit without Saving Managing Buffers :e filename Edit a file in a new buffer :ls List opened buffers :b [chars]+ tab switch to buffer :bnext (or :bn) go to next buffer :bprev (of :bp) go to previous buffer :bd delete a buffer (close a file) Splitting windows :sp filename Open a file in a new horizontally split window :vs filename Open a file in a new vertically split window ctrl+ws Split windows horizontally ctrl+wv Split windows vertically ctrl+ww switch between windows ctrl+wq Quit a window Modes Esc Normal Mode i Insert Mode I Insert Mode from in Visual Mode v Visual Mode Shft + v Visual Line Mode Ctrl + v Visual Block Mode | R Replace Mode Basic commands ctrl + L Refresh screen u Undo Ctrl-r Redo / Search (See search section) .</description>
     </item>
     
   </channel>
